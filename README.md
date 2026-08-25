@@ -43,13 +43,42 @@ GEO / BitMap / HyperLogLog
 
 ## 仓库导航
 
+### 基础资料
+
 - [项目与资料总览](docs/00-overview.md)
 - [源码与课程资料](docs/01-resources.md)
 - [学习路线](docs/02-learning-roadmap.md)
 - [源码阅读方法](docs/03-source-reading-method.md)
 - [核心模块地图](docs/04-module-map.md)
 - [环境启动与已知坑](docs/05-setup-and-pitfalls.md)
+
+### 源码学习骨架
+
+- [项目架构：各层分别在干什么](docs/06-project-architecture.md)
+- [核心业务调用链索引](docs/07-core-request-flows.md)
+- [源码阅读索引：每阶段该看哪些文件](docs/08-source-reading-index.md)
+
+### 学习进度
+
 - [学习 TODO](progress/TODO.md)
+
+## 推荐当前学习入口
+
+如果刚开始黑马点评，不要把仓库所有资料一起看。
+
+先按：
+
+```text
+00-overview
+  ↓
+06-project-architecture
+  ↓
+07-core-request-flows（先只看登录前三条链）
+  ↓
+08-source-reading-index（只打开前 10 个文件）
+```
+
+先把登录模块真正读通，再继续商户缓存。
 
 ## 学习原则
 
